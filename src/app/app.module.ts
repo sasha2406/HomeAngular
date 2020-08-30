@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from "@ngrx/store";
 import { StartPageComponent } from './components/start-page/start-page.component';
+import { DirectDirective } from './direct.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StartPageComponent
+    StartPageComponent,
+    DirectDirective
   ],
   imports: [
     BrowserModule,
